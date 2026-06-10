@@ -5,7 +5,7 @@ cask "agentisland" do
   url "https://github.com/dimsky/agent-island-dist/releases/download/v#{version}/AgentIsland.dmg",
       verified: "github.com/dimsky/agent-island-dist/"
   name "Agent Island"
-  desc "Native macOS companion for AI coding agents"
+  desc "Notch companion for AI coding agents"
   homepage "https://island.dimsky.cn/"
 
   livecheck do
