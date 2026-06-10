@@ -14,15 +14,15 @@ cask "agentisland" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Agent Island.app"
 
   zap trash: [
-    "~/Library/Application Support/AgentIsland",
     "~/Library/Application Support/agent-island",
-    "~/Library/Preferences/app.agentisland.AgentIsland.plist",
+    "~/Library/Application Support/AgentIsland",
     "~/Library/Caches/app.agentisland.AgentIsland",
     "~/Library/HTTPStorages/app.agentisland.AgentIsland",
+    "~/Library/Preferences/app.agentisland.AgentIsland.plist",
   ]
 end
