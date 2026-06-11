@@ -1,6 +1,6 @@
 cask "agentisland" do
-  version "0.0.11"
-  sha256 "a5e81471fd0171aefda0845e8a1ffbede229ba1178e352b5f20fb9fcc7c05530"
+  version "0.0.13"
+  sha256 "88436924e79a2c530007ba9900a469d800123e024c9d632622ae2ab3652242c1"
 
   url "https://github.com/dimsky/agent-island-dist/releases/download/v#{version}/AgentIsland.dmg",
       verified: "github.com/dimsky/agent-island-dist/"
